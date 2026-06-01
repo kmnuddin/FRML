@@ -16,7 +16,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+!docs/*.png        # allow figures in docs/ through
 # Distribution / packaging
 .Python
 build/
@@ -132,7 +132,6 @@ runs/
 *.xlsx
 *.csv
 *.png
-!docs/*.png        # allow figures in docs/ through
 *.jpeg
 *.zip
 *.npy

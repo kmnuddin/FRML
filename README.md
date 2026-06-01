@@ -194,4 +194,4 @@ The default configuration in the snippet above matches the protocol described in
 
 ## Citation
 
-If FRML is useful in your work, please cite the accompanying paper (see `FedRidgeMeta.bib`).
+Comming shortly.
