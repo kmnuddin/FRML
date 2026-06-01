@@ -3,7 +3,7 @@
 Reference implementation and simulation harness for **FRML**, a closed-form, communication-efficient federated aggregation protocol for federated active learning (FAL). FRML was developed for IVD-level classification on lumbar-spine axial MRI but the code is dataset-agnostic — any tabular set of pre-computed embeddings with categorical labels can drive a simulation.
 
 <p align="center">
-  <img src="docs/FRML_Overview.png" alt="FRML protocol overview" width="850"/>
+  <img src="docs/FRML Overview.png" alt="FRML protocol overview" width="850"/>
 </p>
 <p align="center"><em><b>Figure 1.</b> Overview of the FRML protocol. <b>Left:</b> clients train a local committee on L<sub>i</sub>, build OOF meta-features, and transmit only the sufficient statistics S<sub>XX</sub>, S<sub>XY</sub> together with sample moments (n, μ, σ); the server solves a closed-form ridge model and broadcasts <b>W</b>. <b>Right:</b> each client uses committee uncertainty to actively select the most informative unlabeled samples for expert annotation under a fixed per-round budget B.</em></p>
 
