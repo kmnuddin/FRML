@@ -132,6 +132,7 @@ runs/
 *.xlsx
 *.csv
 *.png
+!docs/*.png        # allow figures in docs/ through
 *.jpeg
 *.zip
 *.npy
